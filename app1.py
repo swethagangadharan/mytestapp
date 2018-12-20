@@ -8,8 +8,7 @@ def render_static():
         password= request.form['password']
         
         if name != "" and password != "":
-            print name, password
-    #page_name="index"  
+            print name, password 
     return render_template("webpage.html")
 
 
